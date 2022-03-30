@@ -306,6 +306,73 @@
     }
   },
   {
+    "id": "002b9b93-4d6d-4eee-8702-b56d67ac741b",
+    "name": "MagicBell",
+    "url": "https://www.federacy.com/magicbell",
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "app.magicbell.com"
+        },
+        {
+          "type": "api",
+          "target": "api.magicbell.com"
+        },
+        {
+          "type": "api",
+          "target": "auth.magicbell.com"
+        },
+        {
+          "type": "api",
+          "target": "*.magicbell.com"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "api",
+          "target": "*.magicbell.dev"
+        }
+      ]
+    }
+  },
+  {
+    "id": "f2e89926-609b-4e5d-9224-9c8a4fff2190",
+    "name": "MobileAction",
+    "url": "https://www.federacy.com/mobileaction",
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "mobileaction.co"
+        },
+        {
+          "type": "website",
+          "target": "insights.searchads.com"
+        },
+        {
+          "type": "website",
+          "target": "insights.mobileaction.co"
+        },
+        {
+          "type": "website",
+          "target": "searchads.com"
+        },
+        {
+          "type": "api",
+          "target": "api.mobileaction.co"
+        },
+        {
+          "type": "api",
+          "target": "gateway.mobileaction.co"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "3c3357b5-0feb-4545-8c74-61ac2d6ffa35",
     "name": "Modern Treasury",
     "url": "https://www.federacy.com/modern-treasury",
@@ -347,6 +414,49 @@
         {
           "type": "website",
           "target": "status.nanonets.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7d159fd8-e2f8-4339-a2f4-cb3ebebecb9b",
+    "name": "Nelogica",
+    "url": "https://www.federacy.com/nelogica",
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://www.nelogica.com.br"
+        },
+        {
+          "type": "api",
+          "target": "https://gateway.nelogica.com.br"
+        },
+        {
+          "type": "mobile",
+          "target": "https://apps.apple.com/br/app/profit-mobile/id1163760725"
+        },
+        {
+          "type": "website",
+          "target": "https://hb-homolog.nelogica.com.br/vdp/"
+        },
+        {
+          "type": "desktop",
+          "target": "https://www.nelogica.com.br/produtos/bin/profitchart/Profit.exe"
+        },
+        {
+          "type": "mobile",
+          "target": "https://play.google.com/store/apps/details?id=profitchartandroid.nelogica.com.profitchartandroid"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "*.nelogica.com.br"
+        },
+        {
+          "type": "website",
+          "target": "*.nelogica.com"
         }
       ]
     }
@@ -815,7 +925,27 @@
         {
           "type": "website",
           "target": "knowyourteam.com/blog"
+        },
+        {
+          "type": "website",
+          "target": "knowyourteam.com"
         }
+      ]
+    }
+  },
+  {
+    "id": "5ce7ecf6-a0a2-4afd-b1c3-d0e54a5d30e5",
+    "name": "okteto",
+    "url": "https://www.federacy.com/okteto",
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://okteto.com"
+        }
+      ],
+      "out_of_scope": [
+
       ]
     }
   }

@@ -48,6 +48,42 @@
     }
   },
   {
+    "id": "atg-public-bug-bounty-program",
+    "name": "ATG Public Bug Bounty Program",
+    "public": true,
+    "disabled": false,
+    "managed": false,
+    "min_bounty": 0,
+    "max_bounty": 1500,
+    "targets": {
+      "in_scope": [
+        {
+          "target": "www.atg.se",
+          "type": "web-application"
+        },
+        {
+          "target": "https://apps.apple.com/se/app/atg/id1434660322",
+          "type": "mobile-application-ios"
+        },
+        {
+          "target": "https://play.google.com/store/apps/details?id=se.atg.atg",
+          "type": "mobile-application-android"
+        },
+        {
+          "target": "api.atg.se",
+          "type": "api"
+        },
+        {
+          "target": "iam.atg.se",
+          "type": "web-application"
+        }
+      ],
+      "out_of_scope": [
+
+      ]
+    }
+  },
+  {
     "id": "bug-bounty-program-blablacar",
     "name": "Bug Bounty Program - BlaBlaCar",
     "public": true,
@@ -310,7 +346,7 @@
     "disabled": false,
     "managed": false,
     "min_bounty": 50,
-    "max_bounty": 1500,
+    "max_bounty": 2000,
     "targets": {
       "in_scope": [
         {
@@ -769,7 +805,7 @@
   },
   {
     "id": "olvid-the-most-secure-messaging-app-in-the-world",
-    "name": "Olvid - End-to-end encrypted messaging",
+    "name": "Olvid - Open source end-to-end encrypted messaging",
     "public": true,
     "disabled": false,
     "managed": false,
@@ -950,28 +986,12 @@
           "type": "mobile-application-ios"
         },
         {
-          "target": "https://app.swisspost.ch/vpspayment/xmlinterface",
-          "type": "web-application"
-        },
-        {
-          "target": "https://www.publibike.ch/",
+          "target": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
           "type": "web-application"
         },
         {
           "target": "https://service.post.ch/ele-klp/ele/",
           "type": "web-application"
-        },
-        {
-          "target": "https://api.publibike.ch",
-          "type": "api"
-        },
-        {
-          "target": "https://apps.apple.com/ch/app/publibike/id1273769305",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=ch.publibike.app",
-          "type": "mobile-application-android"
         }
       ],
       "out_of_scope": [
@@ -1050,7 +1070,7 @@
     "disabled": false,
     "managed": false,
     "min_bounty": 50,
-    "max_bounty": 2000,
+    "max_bounty": 4000,
     "targets": {
       "in_scope": [
         {
@@ -1075,6 +1095,10 @@
         },
         {
           "target": "auth.telenor.se",
+          "type": "web-application"
+        },
+        {
+          "target": "cosmos.telenor.se",
           "type": "web-application"
         }
       ],
@@ -1102,52 +1126,24 @@
           "type": "mobile-application-ios"
         },
         {
-          "target": "api.stopcovid.gouv.fr",
+          "target": "api.tousanticovid.gouv.fr",
           "type": "api"
         },
         {
-          "target": "app.stopcovid.gouv.fr",
+          "target": "app.tousanticovid.gouv.fr",
           "type": "api"
         },
         {
-          "target": "bonjour.stopcovid.gouv.fr",
-          "type": "api"
-        }
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "id": "treebal-the-eco-responsible-messaging",
-    "name": "Treebal - The eco-responsible messaging",
-    "public": true,
-    "disabled": false,
-    "managed": false,
-    "min_bounty": 50,
-    "max_bounty": 2000,
-    "targets": {
-      "in_scope": [
-        {
-          "target": "https://auth.treebal.green",
+          "target": "bonjour.tousanticovid.gouv.fr",
           "type": "api"
         },
         {
-          "target": "https://treebal.green/api",
+          "target": "https://qrcode.tousanticovid.gouv.fr",
+          "type": "web-application"
+        },
+        {
+          "target": "https://dcclight.tousanticovid.gouv.fr/api/v1/aggregate",
           "type": "api"
-        },
-        {
-          "target": "https://fr.treebal.green",
-          "type": "api"
-        },
-        {
-          "target": "https://apps.apple.com/us/app/treebal/id1548260759",
-          "type": "mobile-application-ios"
-        },
-        {
-          "target": "https://play.google.com/store/apps/details?id=green.treebal.android",
-          "type": "mobile-application-android"
         }
       ],
       "out_of_scope": [
@@ -1171,6 +1167,10 @@
         },
         {
           "target": "https://api.yeswehack.com",
+          "type": "api"
+        },
+        {
+          "target": "https://apps.yeswehack.com",
           "type": "api"
         }
       ],
@@ -1205,8 +1205,8 @@
     "public": true,
     "disabled": false,
     "managed": false,
-    "min_bounty": 50,
-    "max_bounty": 1800,
+    "min_bounty": 100,
+    "max_bounty": 2000,
     "targets": {
       "in_scope": [
         {
@@ -1293,8 +1293,8 @@
     "public": true,
     "disabled": false,
     "managed": false,
-    "min_bounty": 0,
-    "max_bounty": 2000,
+    "min_bounty": 30,
+    "max_bounty": 10000,
     "targets": {
       "in_scope": [
         {
@@ -1370,7 +1370,7 @@
           "type": "other"
         },
         {
-          "target": "Mobile Backhaul: ZTE 5G Flexhaul Access Product ZXCTN 61V5 series，including ZXCTN 6120H-A, ZXCTN 6120H-B, ZXCTN 6120H-C, ZXCTN 6120H-S, ZXCTN 6180H, ZXCTN 6180H-A, ZXCTN 6190H",
+          "target": "Mobile Backhaul: ZTE 5G Flexhaul Access Product ZXCTN 61V5 series，including ZXCTN 6120H-A, ZXCTN 6120H-B, ZXCTN 6120H-C, ZXCTN 6120H-S, ZXCTN 6180H, ZXCTN 6180H-A, ZXCTN 6190H",
           "type": "other"
         }
       ],
